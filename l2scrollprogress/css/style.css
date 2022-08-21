@@ -1,0 +1,63 @@
+body {
+    background-color: #f4f4f4;
+    font-size: 20px;
+    line-height: 50px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: saddlebrown;
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.progress {
+    width: 100%;
+    height: 5px;
+    background-color: #bbb;
+}
+
+.progress-bar {
+    width: 0;
+    height: inherit;
+    background-color: forestgreen;
+}
+
+.content {
+    width: 80%;
+    padding: 50px 0;
+    background: linear-gradient(red, orange);
+
+    margin: 100px auto;
+}
+
+/* @media print {
+    * {
+        visibility: hidden;
+    }
+
+    .printarea *{
+        visibility: visible;
+    }
+
+    .header {
+        position: static;
+    }
+
+    .pagebreak {
+        page-break-after: always;
+    }
+} */
+
+/* @page {
+    margin: 0;
+    size: auto;   default
+    size: legal portrait;
+    size: 4in 6in;
+} */
